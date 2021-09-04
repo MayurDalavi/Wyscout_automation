@@ -2,9 +2,9 @@ from selenium import webdriver
 
 # Entering username and password
 #username = input("Enter in your username: ")
-#password = getpass("Enter your password: ")
-username = "dalavimayur17@gmail.com"
-password = "pw_IndiaTest!"
+#password = input("Enter your password: ")
+username = "Enter Your username"
+password = "Enter Your password"
 
 # Setting chrome webdriver path
 driver = webdriver.Chrome(executable_path="C:\\Drivers\\chrome\\chromedriver.exe")
