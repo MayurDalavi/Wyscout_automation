@@ -3,7 +3,7 @@ def Wyscout_Login():
 
     # Entering username and password
     #username = input("Enter in your username: ")
-    #password = getpass("Enter your password: ")
+    #password = input("Enter your password: ")
     username = "Enter Your username"
     password = "Enter Your password"
 
