@@ -13,8 +13,8 @@ def openHomepage(context):
 
 @then("Enter User name and Password")
 def enterUnameandPass(context):
-    username = "dalavimayur17@gmail.com"
-    password = "pw_IndiaTest!"
+    username = "Enter Your username"
+    password = "Enter Your password"
     username_textbox = context.driver.find_element_by_id("login_username")
     username_textbox.send_keys(username)
     password_textbox = context.driver.find_element_by_id("login_password")
