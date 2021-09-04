@@ -4,8 +4,8 @@ def Wyscout_Login():
     # Entering username and password
     #username = input("Enter in your username: ")
     #password = getpass("Enter your password: ")
-    username = "dalavimayur17@gmail.com"
-    password = "pw_IndiaTest!"
+    username = "Enter Your username"
+    password = "Enter Your password"
 
     # Setting chrome webdriver path
     driver = webdriver.Chrome(executable_path="C:\\Drivers\\chrome\\chromedriver.exe")
